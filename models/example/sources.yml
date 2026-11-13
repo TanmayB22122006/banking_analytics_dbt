@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: banking_raw
+    database: BANKING_DB
+    schema: GOOGLE_DRIVE
+    tables:
+      - name: ACCOUNTS  
+      - name: BRANCHES
+      - name: CUSTOMERS
+      - name: TRANSACTIONS
